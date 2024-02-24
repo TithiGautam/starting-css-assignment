@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .firstname{
+            background-color: red;
+        }
+        .lastname{
+            background-color: green;
+        }
+        .email{
+            background-color: yellow;
+        }
+        .password{
+            background-color: brown;
+        }
+        #checkbox:checked{
+            accent-color: green;
+        }
+        button{
+            background-color: red;
+            opacity: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Sign-up Form</u></h1>
+    <form>
+        <label for="First Name">First Name: </label>
+        <input placeholder="First Name" class="firstname"
+        type="text" name="ff" id="name" required minlength="3" max="15"><br>
+
+        <label for="last name">Last Name:</label>
+        <input placeholder="Last name" type="text" class="lastname"
+        name="name" id="name" minlength="3" max="15"><br>
+
+        <label for="email">Email:</label>
+        <input placeholder="email" type="text" class="email"
+        name="email" id="email" required ><br>
+
+        <label for="password">Password:</label>
+        <input placeholder="*******" type="password" class="password"
+        name="password" id="password" required><br>
+
+        <label for="confirm password">Confirm Password:</label>
+        <input placeholder="*******" type="password"
+        name="password" id="password" required><br>
+
+        <label for="age" >Age</label>
+        <input type="number" name="age" id="age" placeholder="10"
+        required min="0" max="150" required><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" >
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female" >
+        <label for="Female">Female</label><br>
+
+        <label for="terms and condition">Terms and Condition</label>
+        <input type="checkbox" name="checkbox" id="checkbox" required>I agree to terms and condotion.<br>
+
+
+        <button type="submit">Sign-up</button>
+
+    </form>
+
+</body>
+</html>
+</body>
+</html>
